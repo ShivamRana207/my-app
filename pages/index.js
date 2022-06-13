@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import script from 'next/script' // under stading the script component
-import link from 'next/link' // link componet use to link pages 
+import Link from 'next/Link' // link componet use to link pages 
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,10 +13,10 @@ export default function Home() {
       </Head>
       <nav className={styles.nav}>
         <ul>
-          <link rel="stylesheet" href="/home" /><li>Home</li>
-          <link rel="stylesheet" href="/about" /><li>About</li>
-          <link rel="stylesheet" href="/blogs" /><li>Blogs</li>
-          <link rel="stylesheet" href="/services" /><li>Services</li>
+         <Link href={'/home'}> <li>Home</li></Link>
+         <Link href={'/about'}> <li>About</li></Link>
+         <Link href={'/blogs'}> <li>Blogs</li></Link>
+         <Link href={'/services'}> <li>Services</li></Link>
         </ul>
       </nav>
       <main className={styles.main}>
