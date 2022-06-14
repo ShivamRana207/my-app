@@ -13,10 +13,10 @@ export default function Home() {
       </Head>
       <nav className={styles.nav}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Blogs</li>
-          <li>Services</li>
+          <li><Link href="/"><a>Home</a></Link></li>
+          <li><Link href="/about"><a>About</a></Link></li>
+          <li><Link href="/blogs"><a>Blogs</a></Link></li>
+          <li><Link href="/services"><a>Services</a></Link></li>
         </ul>
       </nav>
       <main className={styles.main}>
