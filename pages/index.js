@@ -23,13 +23,13 @@ export default function Home() {
         <h1 className={styles.title}>
         <span className="myspan">Hytech Developer</span>
         </h1>
-        <Image src={'/home11.jpg'} layout='fill'/>
         <p className={styles.description}>
          Blog by Developers for the Developers.
         </p>
           <div className="bogs">
             <div className="blogItems">
               
+      <Image src='/home.avif' width="800" height = "600"/>
               <h1>How to start Coding</h1>
               <p>Pick any language to understand fundamental of the programminga language</p>
             </div>
