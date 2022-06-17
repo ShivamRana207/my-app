@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styles from '../styles/Home.module.css'
 function blogs() {
   return (
     <div className="bogs">
