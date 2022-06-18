@@ -2,8 +2,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    overflow: hidden;
     background-color: #EEEEEE;
+    
+}
+
+ul.navbar li {
+    float:left;
+    cursor:pointer;
 }
 
 ul.navbar li a {
@@ -12,9 +18,4 @@ ul.navbar li a {
     font-weight:bold;
     padding: 8px 16px;
     text-decoration: none;
-}
-
-ul.navbar li a:hover {
-    background-color: orange;
-    color: white;
 }
